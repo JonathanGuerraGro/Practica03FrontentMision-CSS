@@ -1,0 +1,35 @@
+@font-face {
+    font-family: BwModelica-Bold;
+    src: url(/assets/BwModelica-Bold.otf);
+}
+
+@font-face {
+    font-family: BwModelica-Bold;
+    src: url(/assets/BwModelica-Regular.otf);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style:none;
+}
+
+.vaccination {
+   padding-left: 30%;
+    padding-top: 3%;
+}
+
+
+.navegacion {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding-left:15%;
+
+    margin-top: -42px;
+}
+li{
+    padding-left: 50px;
+}
