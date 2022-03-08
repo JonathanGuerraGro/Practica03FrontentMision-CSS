@@ -76,7 +76,11 @@ li{
 }
 
 .imgenfermera{
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-    background-size: cover;
+
+ 
+  
+    width:500px;
+    height:700px;
+    object-fit: cover;
+    
 }
