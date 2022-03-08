@@ -10,26 +10,73 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin-left: 25%;
 }
 
 li{
     list-style:none;
 }
 
-.vaccination {
-   padding-left: 30%;
-    padding-top: 3%;
-}
-
-
 .navegacion {
     display: flex;
     flex: wrap;
     justify-content: center;
-    padding-left:15%;
-
-    margin-top: -42px;
+    align-items: center;
+    height: 100px;
+    
+    
 }
+.color-header{
+    
+    background: rgb(125,228,253);
+    background: linear-gradient(90deg, rgba(125,228,253,0) 49%, rgba(233,241,252,1) 51%);
+    border-top-right-radius: 10px; 
+}
+
+
 li{
     padding-left: 50px;
+}
+
+.azul-texto{
+    color: #1F3E72;
+}
+
+.vacunacion{
+    color: #3655D2;
+    font-size: 25px;
+    
+    position: absolute;
+    left: 480px;
+}
+
+.gris-texto{
+    color:#6D7B93;
+}
+
+.contenedor500{
+    width: 500px;
+}
+
+.flexgeneral{
+    display: flex;
+    flex: wrap;
+    margin-top: -12px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.fightvirus{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.imgenfermera{
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
