@@ -1,21 +1,29 @@
-@font-face {
-    font-family: BwModelica-Bold;
-    src: url(/assets/BwModelica-Bold.otf);
-}
-
-@font-face {
-    font-family: BwModelica-Bold;
-    src: url(/assets/BwModelica-Regular.otf);
-}
-
 body{
-    font-family: 'Roboto', sans-serif;
+    
     width: 1000px;
+    height: 1100px;
     margin-left: 25%;
 }
 
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.espaciado-texto{
+    
+    line-height: 25px;
+}
 li{
     list-style:none;
+}
+
+
+p{
+    text-align: left;
+    
 }
 
 .navegacion {
@@ -24,9 +32,8 @@ li{
     justify-content: center;
     align-items: center;
     height: 100px;
-    
-    
 }
+
 .color-header{
     
     background: rgb(125,228,253);
@@ -46,7 +53,6 @@ li{
 .vacunacion{
     color: #3655D2;
     font-size: 25px;
-    
     position: absolute;
     left: 480px;
 }
@@ -67,20 +73,153 @@ li{
 
 .centrar{
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .fightvirus{
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 10px;
     text-align: left;
+    margin-bottom: 0px;
 }
 
 .imgenfermera{
-
- 
-  
     width:500px;
     height:700px;
     object-fit: cover;
+    position: relative;
+}
+
+.espaciadoflex{
+    margin-left: 110px;
+}
+
+.separacion-pequeña{
+    margin-left:10px;
+}
+
+.separacion-texto-icono{
+margin-left:40px
+}
+
+.icons-container{
+    width: 30px;
+    height: 30px;
+    background-color: #FFFBEB;
+    filter: drop-shadow(0px 5px 4px #4444);
+   
     
+}
+
+.icons-container2{
+    width: 30px;
+    height: 30px;
+    background-color: #E7EDFF;
+    filter: drop-shadow(0px 5px 4px #4444);
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+
+.espacio-top{
+    margin-top: 20px;
+}
+
+.espacio-top2{
+    margin-top: 70px;
+}
+
+.trianguloadorno01{
+    position: absolute;
+    top: 442px;
+    left: 910px;
+    width: 0px; 
+    height: 0px; 
+    border-left: 80px solid #F4F6FB;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent; 
+    transform:rotate(180deg);
+}
+
+.trianguloadorno02{
+    position: absolute;
+    top: 80px;
+    left: 440px;
+
+    width: 0px; 
+    height: 0px; 
+    border-left: 80px solid #F4F6FB;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent; 
+    transform:rotate(90deg);
+}
+
+.schedule{
+font-size:  20px;
+margin-left: 10px;
+font-weight:600;
+}
+
+.contenedor-location-date-vaccinetype{
+    position:absolute;
+    width: 750px;
+    height: 150px;
+    background-color: #fdfdfdf6;
+    filter: drop-shadow(0px 5px 4px #4444);
+    border-radius: 10px;
+    top: 640px;
+}
+
+.contenedor-interior-location-date-vaccinetype{
+    position: absolute;
+    left:50px;
+    top:35px
+}
+
+.contenedor-submit{
+    height: 50px;
+    width: 120px;
+    background: #3555D3;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.acomodo-text1{
+    position: absolute;
+    top:25px;
+    left:38px;
+    width: 200px;
+}
+
+.acomodo-text2{
+    position: absolute;
+    top:25px;
+    left:253px;
+    width: 200px;
+}
+
+.acomodo-text3{
+    position: absolute;
+    top:25px;
+    left:433px;
+    width: 200px;
+}
+
+.acomodo-text4{
+    position: absolute;
+    top:15px;
+    left:562px;
+
+}
+
+.separacion-left{
+    margin-left: 100px;
+
 }

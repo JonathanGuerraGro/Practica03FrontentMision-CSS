@@ -7,20 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
-    <style>
 
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,900;1,600&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+ 
 </head>
 <body>
 
-    <!-- Barra de navegacion -->
+    <!----- Barra de navegacion ----->
     <header class="color-header">
-       
         <nav>
-            <ul class="navegacion gris-texto">
+            <ul class="navegacion gris-texto font-roboto">
                 <p class="vacunacion">Vaccination</p>
                 <li>Database</li>
                 <li>Education</li>
@@ -31,16 +29,103 @@
         </nav>
     </header>
     
-<!-- Primera seccion con imagen -->
+
+    <!----- Seccion izquierda con imagen ----->
 <section class="flexgeneral">
-    <div class="contenedor500 centrar">
-        <h1 class="fightvirus azul-texto">Fight Virus <br>With Vaccines</h1>
+    <!----- Se abre contenedor de 500px ----->
+    <div class="contenedor500 centrar espacio-top">
+        <h1 class="fightvirus azul-texto font-roboto">Fight Virus<br>With Vaccines</h1>
+        <p class="gris-texto espaciado-texto text-letstopthispandemic font-montserrat">Let's stop this pandemic by killing the virus<br> with a vaccine, don't let yourself and your<br> family get infected</p>
+        <!----- Se abre contenedor con flex para los textos con iconos ----->
+            <div class="flexgeneral centrar espacio-top font-montserrat">
+        
+                <div class= "icons-container">
+                    <img class="icons" src="/assets/star.png" alt="">
+                </div>
+                <div class="separacion-pequeña">
+                    <p class= "azul-texto">Best protection</p>
+                </div>
+
+                <div class="separacion-texto-icono icons-container">
+                    <img class="icons" src="/assets/shield.png" alt="icono de escudo">
+                </div>
+                <div class="separacion-pequeña">
+                    <p class= "azul-texto">Selected Vaccines</p>
+                </div>
+
+        <!----- Triangulos decorativos ----->
+                <div class="trianguloadorno01"></div>
+                <div class="trianguloadorno02"></div>
+            </div>
+        <!----- Se abre contenedor con flex para texto con icono Texto: "Schedule your vaccinations" ----->
+            <div class="flexgeneral espacio-top2 centrar">
+                <div class="icons-container2">
+                    <img class="icons" src="/assets/clock.png" alt="Icono de reloj">
+                </div>
+                <div class="schedule">
+                    <p class="azul-texto font-montserrat">Schedule your vaccinations</p>
+                </div>
+            </div>
     </div>
+  
+<!----- Termina la sección de la izquierda de 500px y comienza la sección derecha de 500 px para la imagen ----->
+    
 
     <div class="contenedor500">
-    <img class="imgenfermera" src="/assets/Doctora-1000px.jpg" alt="Doctora" >  
+        <img class="imgenfermera" src="/assets/Doctora-1000px.jpg" alt="Doctora" >  
     </div>
+        <!----- Se abre contenedor para segmento de "location, date, vaccination type" ----->
+        <div class="contenedor-location-date-vaccinetype font-roboto">
+            <div class="contenedor-interior-location-date-vaccinetype">
+
+            
+                <div class="flexgeneral centrar">
+                    <div class="icons-container2">
+                        <img class="icons" src="/assets/placeholder.png" alt="Icon Location">
+                    </div>
+                    <div>
+                        <h3 class="gris-texto separacion-pequeña">Location</h3>
+                    </div>
+                    
+                    <div class="icons-container2 separacion-left">
+                        <img class="icons" src="/assets/placeholder.png" alt="Icon Location">
+                    </div>
+                    <div>
+                        <h3 class="gris-texto separacion-pequeña">Date</h3>
+                    </div>
+
+                    <div class="icons-container2 separacion-left">
+                        <img class="icons" src="/assets/placeholder.png" alt="Icon Location">
+                    </div>
+                    <div >
+                        <h3 class="gris-texto separacion-pequeña">Vaccine Type</h3>
+                    </div>
+
+                </div>
+                <div class="flexgeneral">
+                    
+                    <div">
+                        <h2 class="azul-texto acomodo-text1">Jakarta Utara</h2>
+                    </div>
+
+                    <div class="">
+                        <h2 class="azul-texto acomodo-text2">08 July 2021</h2>
+                    </div>
+
+                    <div class="">
+                        <h2 class="azul-texto acomodo-text3">Moderna</h2>
+                    </div>
+
+                    <div class="">
+                        <button class="contenedor-submit font-montserrat  acomodo-text4"> Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
+
+    
+
 
 </body>
 </html>
