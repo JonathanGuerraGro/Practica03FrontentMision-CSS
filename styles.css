@@ -114,6 +114,13 @@ li{
     margin-left:40px
 }
 
+.separacion-header{
+    position: relative;
+    left: 110px;
+}
+
+
+
 .icons-container{
     width: 30px;
     height: 30px;
